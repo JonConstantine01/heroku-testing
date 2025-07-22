@@ -1,10 +1,6 @@
 {
-  "name": "heroku/heroku-php",
-  "description": "Sample PHP app",
-  "require": {},
-  "scripts": {
-    "post-install-cmd": [
-      "cp -r public/* ."
-    ]
+  "require": {
+    "ext-pdo": "*",
+    "ext-pdo_pgsql": "*"
   }
 }
